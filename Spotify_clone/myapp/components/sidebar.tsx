@@ -65,7 +65,7 @@ return (
       <List spacing={2}>
             {navMenu.map((menu) => {
               return(
-          <ListItem paddingX = "20px" fontsize="16px" key={menu.name}>
+                <ListItem paddingX="20px" fontSize="16px" key={menu.name}>
             <LinkBox>
             <NextLink href = {menu.route} passHref>
             <LinkOverlay>
